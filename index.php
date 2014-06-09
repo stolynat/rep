@@ -3,6 +3,15 @@
   <title>Hi</title>
  </head>
  <body>
- <?php echo '<p>Hello, world!!!!</p>'; ?>
+ <?php 
+$counter=0;
+$n=5;
+while ($n>1){
+ $n=$n/2;
+ $counter=$counter+1;
+}
+echo "Counter: $counter"
+
+echo '<p>Hello, world!!!!</p>'; ?>
  </body>
 </html>
