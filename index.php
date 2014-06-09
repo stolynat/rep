@@ -10,7 +10,10 @@ while ($n>1){
  $n=$n/2;
  $counter=$counter+1;
 }
-echo "Counter: $counter"
+
+echo (pow(2, counter) . "<br>");
+echo "Counter:  $counter";
+
 
 echo '<p>Hello, world!!!!</p>'; ?>
  </body>
