@@ -11,7 +11,7 @@ while ($n>1){
  $counter=$counter+1;
 }
 
-echo (pow(2, counter) . <br>);
+echo (pow(2, counter) . "<br>");
 echo "Counter:  $counter";
 
 
