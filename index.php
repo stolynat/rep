@@ -4,15 +4,17 @@
  </head>
  <body>
  <?php 
-$counter=0;
-$n=10;
-while ($n>1){
- $n=$n/2;
- $counter=$counter+1;
+$number = 14;
+echo "Number $number" . "<br>";
+for ($x=1; $x < $number; $x++) { 
+	for ($y=1; $y < $number; $y++) { 
+		for ($z=1; $z < $number; $z++) { 
+			if ($x*$x + $y*$y + $z*$z == $number) {
+				echo $x . " " . $y . " " . $z . "<br>";
+			}
+		}
+	}
 }
-echo "The closest number:" . "<br>";
-echo (pow(2, $counter) . "<br>");
-echo "Counter:  $counter";
 
 
 echo '<p>Hello, world!!!!</p>'; ?>

@@ -11,9 +11,9 @@ while ($n>1){
  $counter=$counter+1;
 }
 echo "Number $n" . "<br>";
-echo "The closest number:" . "<br>";
+echo "The closest number 2^r:" . "<br>";
 echo (pow(2, $counter) . "<br>");
-echo "Counter:  $counter";
+echo "R:  $counter";
 
 
 echo '<p>Hello, world!!!!</p>'; ?>
