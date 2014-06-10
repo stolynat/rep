@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php 
-$number = 14;
+$number = 225;
 echo "Number $number" . "<br>";
 for ($x=1; $x < $number; $x++) { 
 	for ($y=1; $y < $number; $y++) { 
